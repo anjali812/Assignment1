@@ -1,0 +1,31 @@
+a) Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 763 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/anjali812/Assignment1
+   fbdbe93..ccef32d  master -> master
+
+b) 9 commits have been made. I used the command git log.
+
+c) Wed Sept 27 16:31:42 2017. The command I used is git log --name-status .gitignore
+
+d) 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+   cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+
+e) Make sure your code changes are verified before delivering them to other developers and better support for developers working in parallel.
+
+f) Difference between git log and git status is that git log shows the information about the latest commits while git status shows the working tree
+   status.
+
+g) git log Weapon.h
+
+h) git log --grep="file"
+
+i) Inheritance is when many classes have similiar attributes and they share certain information and behavior so in this case
+   it is wise to have a base class and then have derived classes that inherit those similiar attributes from the base class.
+   Polymorphism is when the derived classes can have functions of their own that was not inherited from the base class.
+   Encapsulation is when the variables of a certain class can not be accessed by other classes and only accessed within that certain class.
+
