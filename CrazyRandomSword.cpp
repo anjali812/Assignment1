@@ -8,8 +8,9 @@
 #include "CrazyRandomSword.h"
 
 double CrazyRandomSword::hit(double armor) {
+	double random = randPoint();
 
-	double damage = hitPoints - std::rand() % ((int)armor/2);
+	double damage = hitPoints - random % ((int)armor/2);
 	    	if (damage < 0) 
 	    	{
 	        	return 0;
@@ -18,4 +19,10 @@ double CrazyRandomSword::hit(double armor) {
 	
    
   
+}
+
+double CrazyRandomSword::randPoint
+{
+	std::srand(time(0));
+	return rand() % 100 + 10;
 }
