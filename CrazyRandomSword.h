@@ -12,8 +12,7 @@
 #define CRAZYRANDOMSWORD_H
 
 /**
- * Defines the behavior of a simple axe (hitpoint = 60, if armor is greater than 0
-   and less than 20 then ignore armor points)
+ * Defines the behavior of a crazy random sword (hitpoint = random number, armor range is random number to half of armor)
  */
 class CrazyRandomSword : public Weapon {
 public:
