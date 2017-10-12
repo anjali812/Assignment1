@@ -29,5 +29,7 @@ i) Inheritance is when many classes have similiar attributes and they share cert
    Polymorphism is when the derived classes can have functions of their own that was not inherited from the base class.
    Encapsulation is when the variables of a certain class can not be accessed by other classes and only accessed within that certain class.
 
-7. The game is using polymorphism the Weapon class is the base class and six other classes are derived from that class and have their own
-   function definitions like the constructor for example.
+7. The game is using polymorphism the Weapon class is the base class and six other classes are derived from that class and have the word
+   virtual and implement the base class function. Also, the objects are pointers to the Base class which further proves that the class is a base class.
+   The game is using encapsulation because for the CrazyRandomSword class, there is a private method called randpoint which is only accesible by that class
+   and nowhere else. This makes it an example of encapsulation.
